@@ -1,0 +1,57 @@
+body {  
+    background-color: #f9bbe5;
+    color: #7ca4f5;
+    font-family: 'Courier New', Courier, monospace;
+}  
+
+.my_photo {
+   background:  url(../image/my_photo.jpeg) no-repeat center center;
+   background-size: 100%; 
+   width: 280px;
+   height: 350px;
+}
+
+.nav_logo {
+    background: url(../image/logo.png) no-repeat center center;
+    background-size: 100%; 
+    width: 74px;
+    height: 82px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.nav_text { 
+    font-size: 30px;
+    font-weight: bold;
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+}
+
+.title_photo {
+    text-align: center;
+    font-size: 24px;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    background-color: rgb(83, 49, 122);
+    color: rgb(226, 245, 206);
+    font-weight: bold;
+}
+
+#demo img {
+    margin-top: 20px;
+    max-width: 100%;
+}
+.profile {
+    text-align: center;
+}
